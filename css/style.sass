@@ -1,0 +1,1022 @@
+@media (min-width: 480px)
+html
+    font-size: 1px
+
+body
+    background: #1C1C1C
+    color: #fff
+    font-family: 'TTCommons', sans-serif
+    overflow-x: hidden
+
+.main-wrapper
+    max-width: 1240rem
+    margin: 0 auto
+    padding: 0 60rem
+
+h1
+    font-weight: 900
+    font-size: 70rem
+    line-height: 78rem
+    text-transform: uppercase
+
+h2
+    font-weight: 900
+    font-size: 40rem
+    line-height: 50rem
+    text-transform: uppercase
+h4
+    font-weight: 500
+    font-size: 30rem
+    line-height: 38rem
+p
+    font-size: 20rem
+    line-height: 30rem
+
+section
+    overflow-x: hidden
+nav
+    position: fixed
+    width: 100%
+    z-index: 5
+.main-wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    .nav_list ul
+        display: flex
+        flex-direction: row
+        padding-bottom: 20rem
+    a.nav_list-item
+        color: white
+        font-size: 17rem
+        line-height: 22rem
+        text-decoration: none
+        padding: 20rem 20rem 0 0
+        display: block
+        position: relative
+        outline: none
+        &:last-of-type
+            padding-right: 0
+        &:hover:before
+            content: ""
+            width: 100%
+            height: 2rem
+            display: block
+            position: absolute
+            background: #55FF00
+            bottom: -7rem
+            left: 0
+        &:not(:last-of-type):hover:before
+            content: ""
+            width: calc(100% - 20rem)
+            height: 2rem
+            display: block
+            position: absolute
+            background: #55FF00
+            bottom: -7rem
+            left: 0
+    a.nav_list-item-button
+        color: white
+        font-size: 17rem
+        border: 2rem solid #FFFFFF
+        border-radius: 100rem
+        padding: 8rem 14rem 6rem
+        line-height: 23rem
+        margin-top: 20rem
+        font-weight: 800
+        text-transform: uppercase
+        margin-right: 24rem
+        text-decoration: none
+        &.registr
+            color: #55FF00
+            border-color: #55FF00
+    a.nav_list-item-change-lang
+        text-decoration: underline
+        font-weight: 500
+        color: white
+        font-size: 17rem
+        line-height: 23rem
+        padding-top: 28rem
+
+.header
+    height: 100vh
+    min-height: 750px
+    max-height: 1080px
+  //background: url("../img/header_bg.png") 110% 50% no-repeat
+    background-size: auto 702rem
+.main-wrapper
+    height: 100%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    .header_left
+    img
+        margin-bottom: 40rem
+    h4
+        max-width: 388rem
+        padding-bottom: 100rem
+    p.header_text
+        max-width: 380rem
+        position: relative
+    &:before
+        content: ''
+        width: 47rem
+        height: 47rem
+        background: url("../img/cube-icon.svg") 50% 50% no-repeat
+        position: absolute
+        top: -57rem
+        left: -5rem
+    .header_right
+        width: 100%
+        height: 702rem
+        position: relative
+    img
+        margin-left: -140rem
+    p
+        font-size: 16rem
+        line-height: 24rem
+    p:first-of-type
+        position: absolute
+        top: 86rem
+        left: calc(50% - 100rem)
+    p:nth-of-type(2)
+        position: absolute
+        top: 98rem
+        left: calc(50% + 45rem)
+        max-width: 120rem
+    p:nth-of-type(3)
+        position: absolute
+        top: 190rem
+        right: calc(50% + 115rem)
+    p:nth-of-type(4)
+        position: absolute
+        max-width: 170rem
+        top: 255rem
+        right: calc(50% + 115rem)
+    p:nth-of-type(5)
+        position: absolute
+        top: 324rem
+        left: calc(50% - 290rem)
+    p:nth-of-type(6)
+        position: absolute
+        top: 358rem
+        left: calc(50% - 390rem)
+    p:nth-of-type(7)
+        position: absolute
+        top: 365rem
+        right: calc(50% - 82rem)
+    p:nth-of-type(8)
+        position: absolute
+        top: 431rem
+        left: calc(50% - 260rem)
+    p:nth-of-type(9)
+        position: absolute
+        top: 509rem
+        left: calc(50% - 100rem)
+
+.offers
+    padding: 80rem 0
+    overflow-x: hidden
+.main-wrapper
+    //max-width: 1370rem
+    //box-sizing: border-box
+    //margin-left: auto
+    //margin-right: 0
+    //padding-right: 0
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    //margin-right: 0
+
+    .offers_text
+        max-width: 467rem
+        margin-top: -50rem
+        margin-right: 50rem
+    h2
+        margin-bottom: 30rem
+        position: relative
+        &:before
+            content: ''
+            width: 47rem
+            height: 47rem
+            background: url("../img/pack-icon.svg") 50% 50% no-repeat
+            position: absolute
+            top: -57rem
+            left: -2rem
+.offers_slider
+    max-width: 785rem
+    margin-right: -100rem
+    //overflow-x: visible
+    .offers_slider-item
+        height: 350rem
+        width: 271rem
+        background: url("../img/offers_bg-1.jpg") 50% 50% no-repeat
+        background-size: cover
+        border-radius: 30rem
+        text-align: center
+        box-sizing: border-box
+        font-size: 22rem
+        line-height: 32rem
+        text-transform: uppercase
+        font-weight: 800
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        padding: 25rem
+    &.invisible
+        opacity: 0
+    img
+        max-height: 210rem
+        max-width: 200rem
+    p
+        //margin-bottom: 22rem
+    .flag
+        width: 25rem
+        height: 25rem
+        border-radius: 50%
+        margin-bottom: 10rem
+
+    .swiper-pagination-bullet:not(.swiper-pagination-bullet-active)
+        display: none
+
+    .slider_controls
+        max-width: 685rem
+        position: relative
+        height: 50rem
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin-top: 30rem
+    .swiper-button-disabled
+        opacity: 1
+    .slider_navigation
+        display: flex
+        padding-right: 50rem
+    .swiper-button-next,
+    .swiper-button-prev
+        position: initial
+        display: block
+        width: auto
+        height: auto
+        margin-top: 0
+        outline: none
+        &:after
+            content: none
+    .swiper-button-prev
+        margin-right: 35rem
+    .swiper-pagination
+        position: unset
+        font-size: 30rem
+        line-height: 26rem
+        width: 30rem
+        height: 26rem
+        --swiper-theme-color: none
+        color: #55FF00
+        padding-left: 30rem
+    .decoration_line
+        width: 100%
+        height: 2rem
+        background: #55FF00
+
+.help
+    padding: 180rem 0 60rem
+.main-wrapper
+    display: flex
+    justify-content: space-between
+    .help_text
+        max-width: 461rem
+        margin-right: 50rem
+    h2
+        position: relative
+        margin-bottom: 35rem
+        &:before
+            content: ''
+            width: 56rem
+            height: 56rem
+            background: url("../img/settings.svg") 50% 50% no-repeat
+            position: absolute
+            top: -65rem
+            left: -2rem
+    p
+        width: 416rem
+    .help_slider
+        max-width: 770rem
+        margin-right: -100rem
+    .help_slider-item
+        text-align: center
+        width: 250rem
+    .help_slider-item-container
+        width: 250rem
+        margin-right: auto
+    img
+        border-radius: 50%
+        width: 250rem
+    p
+        font-size: 22rem
+        line-height: 32rem
+        text-transform: uppercase
+        font-weight: 800
+        margin-top: 20rem
+    a
+        color: #55FF00
+        font-size: 18rem
+        line-height: 22rem
+        text-decoration: none
+    .swiper-pagination-bullet:not(.swiper-pagination-bullet-active)
+        display: none
+    .slider_controls
+        max-width: 685rem
+        position: relative
+        height: 50rem
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin-top: 30rem
+    .swiper-button-disabled
+        opacity: 1
+    .slider_navigation
+        display: flex
+        padding-right: 50rem
+    .swiper-button-next,
+    .swiper-button-prev
+        position: initial
+        display: block
+        width: auto
+        height: auto
+        margin-top: 0
+        outline: none
+        &:after
+            content: none
+    .swiper-button-prev
+        margin-right: 35rem
+    .swiper-pagination
+        position: unset
+        font-size: 30rem
+        line-height: 26rem
+        width: 30rem
+        height: 26rem
+        --swiper-theme-color: none
+        color: #55FF00
+        padding-left: 30rem
+    .decoration_line
+        width: 100%
+        height: 2rem
+        background: #55FF00
+
+.solutions
+    background: #6B14A0
+    padding: 115rem 0
+    max-width: 1440rem
+    margin: 0 auto
+.main-wrapper
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: flex-start
+.solutions_left
+    display: flex
+    flex-direction: row
+    &>div
+        display: flex
+        flex-direction: column
+        text-align: center
+        margin-right: 44rem
+    &:last-of-type
+        margin-right: 0
+    img
+        height: 340rem
+    a
+        color: white
+        background: #8146FF
+        box-shadow: 0 20rem 40rem #8C13D7
+        border-radius: 28rem
+        height: 51rem
+        font-size: 22rem
+        line-height: 49rem
+        text-decoration: none
+        display: inline-block
+        padding: 0 37rem
+        transition: background-color .3s
+        &:hover
+            background: #5C20DA
+.solutions_right
+    max-width: 397rem
+    margin-left: 77rem
+    h2
+        margin-bottom: 53rem
+
+.improvement
+.main-wrapper
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    .improvement_left
+        max-width: 560rem
+    h2
+        margin-bottom: 30rem
+        position: relative
+        &:before
+            content: ''
+            width: 47rem
+            height: 47rem
+            background: url("../img/star-icon.svg") 50% 50% no-repeat
+            position: absolute
+            background-size: contain
+            top: -60rem
+            left: 0
+    p
+        max-width: 440rem
+    .improvement_right
+        position: relative
+        padding-right: 40rem
+    div img
+        height: 750rem
+    .rotate-icon
+        position: absolute
+        width: 147rem
+        height: 227rem
+        bottom: 100rem
+        right: 40rem
+        z-index: 2
+        &>img
+            width: 102rem
+            height: 102rem
+            position: relative
+            top: 43rem
+          //padding-top: 40rem
+          //padding-left: 40rem
+        .rotate-elem
+            position: absolute
+            top: 0
+            right: 0
+            animation: 7s linear 0s normal none infinite running rot
+            -webkit-animation: 7s linear 0s normal none infinite running rot
+        img
+            width: 190rem
+            height: 190rem
+
+.advertisers
+    background: url("../img/blur-bg.png") 50% 50% no-repeat
+    background-size: contain
+    max-width: 1440rem
+    margin: -100rem auto 0
+.main-wrapper
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: flex-start
+    padding-top: 100rem
+    padding-bottom: 100rem
+.advertisers-left
+    position: relative
+    margin-right: 112rem
+h2
+    position: relative
+    margin-bottom: 30rem
+    &:before
+        content: ''
+        width: 63rem
+        height: 63rem
+        background: url("../img/adv-icon.svg") 50% 50% no-repeat
+        position: absolute
+        background-size: contain
+        top: -73rem
+        left: 0
+p
+    max-width: 310rem
+.adv-slider
+    max-height: 480rem
+    cursor: pointer
+    position: relative
+    & div
+      //max-height: 480rem
+.slide
+    display: flex
+    flex-direction: row
+    max-height: 480rem
+.adv-slider-item
+    height: 345rem
+    width: 271rem
+    background: url(../img/adv_bg.png) 50% 50% no-repeat
+    background-size: cover
+    border-radius: 30rem
+    text-align: center
+    box-sizing: border-box
+    font-size: 22rem
+    line-height: 32rem
+    text-transform: uppercase
+    font-weight: 800
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    padding: 25rem
+    &:nth-of-type(2)
+        margin-top: 135rem
+        margin-left: 30rem
+    .flag
+        width: 25rem
+        height: 25rem
+        border-radius: 50%
+        margin-bottom: 10rem
+.slider_navigation
+    width: 130rem
+    height: 46rem
+    position: absolute
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    transform: rotate(90deg)
+    top: -20rem
+    right: -60rem
+    z-index: 3
+.swiper-button-next,
+.swiper-button-prev
+    position: initial
+    display: block
+    width: auto
+    height: auto
+    margin-top: 0
+    outline: none
+    &:after
+        content: none
+    img
+        width: 46rem
+        height: 46rem
+
+.rates
+    text-align: center
+    width: 100%
+    padding: 0 44rem
+    h2:before
+        content: none
+    p
+        max-width: 430rem
+        margin: 0 auto 70rem
+    .rates-compare
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 34rem
+    .our-rates
+        border: 2.67824rem solid #55FF00
+        border-radius: 26.7824rem
+        padding: 32rem 40rem
+    .our-rates_header
+        font-size: 19.6404rem
+        line-height: 21rem
+        letter-spacing: -0.011em
+        font-weight: 800
+        display: flex
+        flex-direction: row
+        align-items: flex-start
+        justify-content: space-between
+        span
+        &:first-of-type
+            text-transform: uppercase
+            text-align: left
+        &:last-of-type
+            color: #55FF00
+            font-size: 32.1389rem
+    .our-rates_points
+        font-size: 16rem
+        line-height: 21rem
+        text-align: center
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        margin-top: 40rem
+        //div
+        //  max-width: 30%
+        img
+            width: 60rem
+            padding-bottom: 10rem
+            display: block
+            margin: 0 auto
+        span
+            display: block
+            max-width: 120rem
+            text-align: center
+            margin: 0 auto
+            padding: 5rem 0
+        &:last-of-type
+            color: #55FF00
+            &:before
+                content: ''
+                width: 13rem
+                height: 13rem
+                position: relative
+                display: inline-block
+                background: url("../img/check.svg") 50% 50% no-repeat
+                background-size: contain
+                margin-right: 5rem
+                top: 1rem
+    .our-rates-final
+        font-size: 18rem
+        line-height: 21rem
+        font-weight: bold
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        margin-top: 28rem
+        span
+            display: block
+            white-space: nowrap
+        span:nth-of-type(2)
+            width: 100%
+            height: 21rem
+            background: url("../img/arrow-1.svg") 100% 50% no-repeat
+            background-size: auto 100%
+            margin: 0 20rem
+        span:last-of-type
+            position: relative
+            color: #55FF00
+        &:before
+            content: ''
+            width: 53rem
+            height: 57rem
+            background: url("../img/accent-violet.svg") 50% 50% no-repeat
+            background-size: contain
+            position: absolute
+            top: -20rem
+            right: -15rem
+    .another_rates
+        border-color: #7100B7
+    .our-rates_header
+        span:last-of-type
+            color: #7100B7
+    .our-rates_points
+        span
+        &:last-of-type
+            color: #03DFC5
+            &:before
+                content: ''
+                width: 13rem
+                height: 13rem
+                position: relative
+                display: inline-block
+                background: url("../img/low.svg") 50% 50% no-repeat
+                background-size: contain
+                margin-right: 5rem
+                top: 2rem
+    .our-rates-final
+        color: #55FF00
+        span:last-of-type
+            color: #fff
+            position: relative
+        &:before
+            content: ''
+            width: 53rem
+            height: 57rem
+            background: url("../img/accent-blue.svg") 50% 50% no-repeat
+            background-size: contain
+            position: absolute
+            top: -20rem
+            right: -15rem
+        span:nth-of-type(2)
+            background: url("../img/arrow-2.svg") 100% 50% no-repeat
+.footer
+    background: #272727
+    padding: 70rem 0
+.main-wrapper
+    display: flex
+    flex-direction: row
+    align-items: flex-start
+    justify-content: space-between
+.messengers
+    .social_links
+        display: flex
+        flex-direction: row
+        margin-top: 60rem
+    &>div:first-of-type
+        margin-right: 180rem
+    a
+        font-size: 20rem
+        line-height: 55rem
+        color: white
+        text-decoration: none
+        position: relative
+        transition: .3s
+        &:hover:before
+            content: ""
+            width: 100%
+            height: 2rem
+            display: block
+            position: absolute
+            background: #55FF00
+            bottom: -7rem
+            left: 0
+    .tg:before
+        content: ''
+        position: relative
+        width: 30rem
+        height: 30rem
+        background: url("../img/tg-icon.svg") 50% 50% no-repeat
+        background-size: contain
+        display: inline-block
+        margin-right: 17rem
+        top: 8rem
+    .skype:before
+        content: ''
+        position: relative
+        width: 30rem
+        height: 30rem
+        background: url("../img/skype-icon.svg") 50% 50% no-repeat
+        background-size: contain
+        display: inline-block
+        margin-right: 17rem
+        top: 5rem
+    .mail:before
+        content: ''
+        position: relative
+        width: 37rem
+        height: 33rem
+        background: url("../img/mail-icon.svg") 50% 50% no-repeat
+        background-size: contain
+        display: inline-block
+        margin-right: 10rem
+        top: 10rem
+        left: -2rem
+h3
+    font-size: 22rem
+    line-height: 57rem
+    text-transform: uppercase
+    font-weight: bold
+.content
+    h3
+        max-width: 445rem
+        line-height: 25rem
+    .logo
+        margin-bottom: 79rem
+
+    .socials
+        max-width: 340rem
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        margin-top: 35rem
+    a:hover svg .socials-fill
+        fill: #6B09A7
+.copyright
+    padding: 30rem 0
+p
+    font-size: 18rem
+    line-height: 24rem
+    text-align: center
+    opacity: .3
+    max-width: 650rem
+    margin: 0 auto
+
+@media (max-width: 1279px)
+.main-wrapper
+    max-width: 1000rem
+h1
+    font-size: 50rem
+    line-height: 55rem
+h2
+    font-size: 28rem
+    line-height: 35rem
+h4
+    font-size: 22rem
+    line-height: 28rem
+p
+    font-size: 16rem
+    line-height: 21rem
+nav .main-wrapper .nav_list ul
+    a.nav_list-item
+        font-size: 13rem
+        line-height: 16rem
+        padding-top: 10rem
+    a.nav_list-item-button
+        margin-top: 10rem
+        font-size: 12rem
+        line-height: 15rem
+    a.nav_list-item-change-lang
+        font-size: 12rem
+        line-height: 15rem
+        padding-top: 18rem
+.header
+    .main-wrapper
+    .header_left
+        img
+            width: 174rem
+    p.header_text
+        max-width: 280rem
+        &:before
+            width: 33rem
+            height: 33rem
+            background-size: contain
+            left: -4rem
+            top: -43rem
+    .header_right
+        height: 606rem
+        img
+            height: 600rem
+        p:first-of-type
+            top: 72rem
+        p:nth-of-type(2)
+            top: 86rem
+            left: calc(50% + 34rem)
+        p:nth-of-type(3)
+            position: absolute
+            top: 154rem
+            right: calc(50% + 104rem)
+        p:nth-of-type(4)
+            top: 221rem
+            right: calc(50% + 92rem)
+        p:nth-of-type(5)
+            top: 282rem
+        p:nth-of-type(6)
+            top: 316rem
+            left: calc(50% - 370rem)
+        p:nth-of-type(7)
+            top: 306rem
+            right: calc(50% - 77rem)
+        p:nth-of-type(8)
+            top: 362rem
+            left: calc(50% - 250rem)
+        p:nth-of-type(9)
+            top: 435rem
+.offers
+    padding: 20rem 0 60rem
+    .main-wrapper
+    .offers_text
+        max-width: 333rem
+        h2
+            margin-bottom: 20rem
+        &:before
+            width: 27rem
+            height: 27rem
+            background-size: contain
+            left: 0
+            top: -43rem
+    .offers_slider
+        width: 575rem
+        margin-left: -60rem
+        .slider_controls
+            max-width: 490rem
+        .swiper-pagination
+            font-size: 21rem
+        .slider_navigation
+            max-width: 96rem
+        .swiper-button-prev img,
+        .swiper-button-next img
+            width: 35rem
+            height: 35rem
+        .swiper-button-prev
+            margin-right: 20rem
+        .offers_slider-item
+            height: 250rem
+        p
+            font-size: 14rem
+        img
+            max-height: 130rem
+            max-width: 145rem
+
+.solutions
+    padding: 95rem 0
+    .solutions_left
+    div
+        img
+            height: 240rem
+        a
+            font-size: 16rem
+            line-height: 36rem
+            height: 36rem
+    .solutions_right
+    h2
+        margin-bottom: 38rem
+
+.help
+    .main-wrapper
+    .help_text
+        max-width: 325rem
+        p
+            max-width: 325rem
+        h2
+        &:before
+            width: 40rem
+            height: 40rem
+            background-size: contain
+            top: -51rem
+    .help_slider
+        width: 580rem
+    .help_slider-item
+        margin-right: 30rem
+        img
+            max-width: 190rem
+        .help_slider-item-container
+            width: 190rem
+    .slider_controls
+        max-width: 490rem
+        .swiper-pagination
+            font-size: 21rem
+        .slider_navigation
+            max-width: 96rem
+        .swiper-button-prev img,
+        .swiper-button-next img
+            width: 35rem
+            height: 35rem
+        .swiper-button-prev
+            margin-right: 20rem
+.improvement
+    .main-wrapper
+    .improvement_right
+        div
+        img
+            height: 604rem
+        .rotate-icon
+        &> img
+            width: 73rem
+            height: 73rem
+        .rotate-elem
+            right: 46rem
+            top: 15rem
+            img
+                width: 129rem
+                height: 129rem
+
+.advertisers
+    .main-wrapper
+        padding-top: 85rem
+        padding-bottom: 65rem
+    &:nth-of-type(2)
+        padding-top: 10rem
+    .adv-slider
+        max-height: 390rem
+    .adv-slider-item
+        justify-content: flex-end
+        height: 245rem
+        width: 192rem
+    img
+        max-height: 150rem
+    .swiper-button-next img,
+    .swiper-button-prev img
+        width: 33rem
+        height: 33rem
+    .slider_navigation
+        width: 90rem
+        right: -50rem
+
+    .rates
+    p
+        margin-bottom: 45rem
+    .our-rates
+        .our-rates_header
+            font-size: 16rem
+            line-height: 15rem
+        span:last-of-type
+            font-size: 22rem
+        .our-rates_points
+            margin-top: 25rem
+        img
+            width: 47rem
+        span
+            font-size: 12rem
+            line-height: 15rem
+        span:last-of-type:before
+            width: 10rem
+            height: 10rem
+            top: 2rem
+        .our-rates-final
+        span
+            font-size: 12rem
+            line-height: 15rem
+
+        span:nth-of-type(2)
+            height: 15rem
+            background-size: cover
+        span:last-of-type:before
+            width: 40rem
+            height: 40rem
+            top: -13rem
+
+.footer
+    h3
+        font-size: 16rem
+        line-height: 40rem
+    .messengers
+    .social_links
+        margin-top: 42rem
+        a
+            font-size: 14rem
+            line-height: 40rem
+
+        &> div:first-of-type
+            margin-right: 120rem
+    .content
+    .logo
+        width: 154rem
+        margin-bottom: 51rem
+    .socials
+        max-width: 245rem
+        a
+        svg
+            height: 32rem
+            width: 32rem

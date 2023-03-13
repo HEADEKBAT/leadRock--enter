@@ -1,0 +1,145 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3744468, 2019-04-08T05:50:57-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TTCommons-Regular by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/regular/
+ *
+ * Webfont: TTCommons-LightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light-italic/
+ *
+ * Webfont: TTCommons-Light by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light/
+ *
+ * Webfont: TTCommons-Medium by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium/
+ *
+ * Webfont: TTCommons-MediumItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium-italic/
+ *
+ * Webfont: TTCommons-Italic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/italic/
+ *
+ * Webfont: TTCommons-ThinItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin-italic/
+ *
+ * Webfont: TTCommons-Thin by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin/
+ *
+ * Webfont: TTCommons-BlackItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black-italic/
+ *
+ * Webfont: TTCommons-Black by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black/
+ *
+ * Webfont: TTCommons-BoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold-italic/
+ *
+ * Webfont: TTCommons-Bold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold/
+ *
+ * Webfont: TTCommons-DemiBoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold-italic/
+ *
+ * Webfont: TTCommons-DemiBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold/
+ *
+ * Webfont: TTCommons-ExtraBoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold-italic/
+ *
+ * Webfont: TTCommons-ExtraBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold/
+ *
+ * Webfont: TTCommons-ExtraLightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light-italic/
+ *
+ * Webfont: TTCommons-ExtraLight by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3744468
+ * Licensed pageviews: 20,000
+ * webfonts copyright: Copyright (c) 2018 by TypeType. Designers Ivan Gladkikh, Pavel Emelyanov. Technical designers Marina Khodak, Vika Usmanova, Nadyr Rakhimov. All rights reserved.
+ *
+ * © 2019 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+/* @import url("//hello.myfonts.net/count/3922d4"); */
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: normal;
+    font-style: normal;
+    src: url('webfonts/3922D4_0_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 300;
+    font-style: normal;
+    src: url('webfonts/3922D4_2_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 500;
+    font-style: normal;
+    src: url('webfonts/3922D4_3_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 200;
+    font-style: normal;
+    src: url('webfonts/3922D4_7_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 900;
+    font-style: normal;
+    src: url('webfonts/3922D4_9_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 700;
+    font-style: normal;
+    src: url('webfonts/3922D4_B_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 600;
+    font-style: normal;
+    src: url('webfonts/3922D4_D_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 800;
+    font-style: normal;
+    src: url('webfonts/3922D4_F_0.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'TTCommons';
+    font-weight: 100;
+    font-style: normal;
+    src: url('webfonts/3922D4_11_0.woff2') format('woff2');
+}
